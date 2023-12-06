@@ -1,0 +1,168 @@
+.productsecuritydiv1{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+
+.securityleftdiv h1{
+
+    width: 100%;
+    font-size: 2.3em;
+    color: #223666;
+    font-weight: 800;
+}
+
+
+.securityleftdiv p{
+    margin-top: 10px;
+    width: 100%;
+    color: #424242;
+}
+.securityleftdiv ul {
+    color: #424242;
+    justify-content: space-evenly;
+}
+
+
+
+.securityleftdiv1 h1{
+    width: 100%;
+    font-size: 2.3em;
+    color: #223666;
+    font-weight: 800;
+    text-align: right;
+}
+
+
+.securityleftdiv1 p{
+    margin-top: 10px;
+    width: 100%;
+    color: #424242;
+    text-align: right;
+}
+.securityleftdiv1 ul {
+    color: #424242;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+
+.aboutbanner {
+    width: 100%;
+    height: 60vh;
+   
+    margin-top: -80px;
+}
+/* .menudisplay{
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    background-color: #223666;
+}
+.menumain a{
+    padding: 5px;
+    color: rgb(238, 233, 233);
+    font-size: 15px;
+} */
+
+@media (max-width: 786px) {
+    .productsecuritydiv1{
+        width: 80%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    
+    }
+
+    .aboutbanner {
+        width: 100%;
+        height: 18vh;
+        /* background: url(https://www.leica-microsystems.com/fileadmin/_processed_/c/8/csm_Quality-Policy_Header_e8deece6dc.jpg) no-repeat ;
+        background-size: contain; */
+        margin-top: -25px;
+        text-align: center;
+    }
+   
+    .securityleftdiv h1{
+        width: 90%;
+    text-align: center;
+        font-size:1.6em;
+        color: #223666;
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .securityleftdiv p{
+        margin-top: 10px;
+        width: 80%;
+        color: #424242;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    
+    .securityleftdiv1 h1{
+        width: 90%;
+    text-align: center;
+        font-size:1.6em;
+        color: #223666;
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .securityleftdiv1 p{
+        margin-top: 10px;
+        width: 80%;
+        color: #424242;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .securityleftdiv h1{
+        width: 90%;
+    text-align: center;
+        font-size:1.6em;
+        color: #223666;
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .securityleftdiv1 ul {
+        color: #424242;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+    
+    
+    
+    
+.menudisplay{
+    background-color: #223666;
+}
+.menumain a{
+    color: rgb(238, 233, 233);
+    font-size: small;
+}
+    
+}

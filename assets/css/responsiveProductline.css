@@ -1,0 +1,519 @@
+
+/* ======================================================================= */
+                                /* MOBILE VIEW */
+/* ============================================================================== */
+
+
+@media (max-width: 768px) {
+
+    
+  
+    .containercard{
+        
+        /* display: contents; */
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+        
+        .card {
+            
+            padding-right: 20px;
+        }
+
+
+
+        
+.containercard .card .icon img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #223666;
+
+}
+
+.containercard .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.containercard .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.containercard .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(50px);
+
+}
+
+
+
+.containercard .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 5px 5px rgb(26, 35, 126,0.4);
+
+}
+
+
+
+.containercard .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 3px;
+
+    bottom: 7px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #223666;
+
+}
+
+
+
+
+
+.containercard .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-size: 10px;
+
+    text-align: center;
+
+    color: #424242 ;
+
+}
+
+.containercard .card .slide.slide2 .content h3 {
+
+    margin: -20px 0 10px 0;
+    padding: 0;
+
+    font-size: 16px;
+
+    text-align: center;
+
+    color: #414141;
+
+}
+
+
+
+
+}
+@media (max-width: 440px) {
+
+    .containercard{
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+        }
+        
+        
+        .card {
+            
+            padding-right: 10px;
+        }
+
+
+
+        
+.containercard .card .icon img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #223666;
+
+}
+
+.containercard .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.containercard .card .slide {
+
+    width: 200px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.containercard .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(80px);
+
+}
+
+
+
+.containercard .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 5px 5px rgb(26, 35, 126,0.4);
+
+}
+
+
+
+.containercard .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 3px;
+
+    bottom: 7px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #223666;
+
+}
+
+
+
+
+
+.containercard .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-size: 10px;
+    background-color: transparent;
+
+    text-align: center;
+
+    color: #424242 ;
+
+}
+
+.containercard .card .slide.slide2 .content h3 {
+
+    margin: -70px 0 10px 0;
+    padding: 0;
+
+    font-size: 16px;
+
+    text-align: center;
+background-color: transparent;
+    color: #223666;
+
+}
+
+
+
+.principles h1{
+   
+    width: 100%;
+    color: #223666;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+  }
+
+
+
+
+}
+
+
+
+/* ======================================================================================== */
+
+                                        portrait tablet view
+/* ============================================================================================= */
+
+
+@media (max-width: 991px) {
+
+    .containercard {
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        }
+        
+        
+        .card {
+            
+            padding-right: 10px;
+        }
+
+
+
+        
+.containercard .card .icon img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #223666;
+
+}
+
+.containercard .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+
+.containercard .card .slide {
+
+    width: 150px;
+
+    height: 140px;
+
+    transition: 0.5s;
+
+}
+
+.containercard .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(25px);
+
+}
+
+
+
+.containercard .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 5px 5px rgb(26, 35, 126,0.4);
+
+}
+
+
+
+.containercard .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 3px;
+
+    bottom: 7px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #223666;
+
+}
+
+
+
+
+
+.containercard .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-size: 10px;
+
+
+    background-color: transparent;
+
+    text-align: center;
+
+    color: #424242 ;
+
+}
+
+.containercard .card .slide.slide2 .content h3 {
+
+    margin: -20px 0 10px 0;
+    padding: 0;
+
+    font-size: 16px;
+
+    text-align: center;
+background-color: transparent;
+    color: #223666;
+
+}
+
+
+
+.principles h1{
+   
+    width: 100%;
+    color: #223666;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+  }
+
+
+}

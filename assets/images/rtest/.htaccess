@@ -1,0 +1,58 @@
+# BEGIN HMWP_VULNERABILITY
+<IfModule mod_headers.c>
+Header always unset x-powered-by
+Header always unset server
+ServerSignature Off
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=63072000"
+Header set Content-Security-Policy "object-src 'none'"
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+
+
+# END HMWP_VULNERABILITY
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /rtest/
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin$ /rtest/wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin/(.*) /rtest/wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /rtest/wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?register$ /rtest/wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/da52c0b4d9/(.*) /rtest/wp-content/plugins/analytics-insights/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/434b8996f4/(.*) /rtest/wp-content/plugins/classic-editor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d0f4711431/(.*) /rtest/wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/53f3e6e6ea/(.*) /rtest/wp-content/plugins/loginpress/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/fcec60fe04/(.*) /rtest/wp-content/plugins/responsive-accordion-and-collapse/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/da5f722751/(.*) /rtest/wp-content/plugins/td-cloud-library/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/9cf9318dc1/(.*) /rtest/wp-content/plugins/td-composer/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/0ad05afe9e/(.*) /rtest/wp-content/plugins/td-standard-pack/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/e5b9a11a99/(.*) /rtest/wp-content/plugins/td-woo/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/64661b86c7/(.*) /rtest/wp-content/plugins/woo-checkout-field-editor-pro/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/39d10ee62c/(.*) /rtest/wp-content/plugins/woocommerce/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/b593a3ee4d/(.*) /rtest/wp-content/plugins/wp-fastest-cache/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/(.*) /rtest/wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/13c402efbe/design.css$ /rtest/wp-content/themes/Newspaper/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/13c402efbe/(.*) /rtest/wp-content/themes/Newspaper/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/f1dfeb5569/design.css$ /rtest/wp-content/themes/twentytwenty/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/f1dfeb5569/(.*) /rtest/wp-content/themes/twentytwenty/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/96f874eecb/design.css$ /rtest/wp-content/themes/twentytwentyone/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/96f874eecb/(.*) /rtest/wp-content/themes/twentytwentyone/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/a37e87dcf0/design.css$ /rtest/wp-content/themes/twentytwentythree/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/a37e87dcf0/(.*) /rtest/wp-content/themes/twentytwentythree/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/design.css$ /rtest/wp-content/themes/twentytwentytwo/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/(.*) /rtest/wp-content/themes/twentytwentytwo/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/(.*) /rtest/wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /rtest/wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /rtest/wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /rtest/wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /rtest/wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /rtest/author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES

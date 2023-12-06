@@ -1,0 +1,60 @@
+.btnn {
+	text-decoration: none;
+	font-size: 1rem;
+	user-select: none;
+	color: #ffffff;
+  
+	display: flex;
+	align-items: center;
+  }
+  
+  
+
+  .btnn:hover {
+	color: #cfcece;
+	font-size: medium;
+	font-weight: 600;
+  }
+
+
+
+
+  .btnn1 {
+	text-decoration: none;
+	font-size: 1rem;
+	user-select: none;
+	color: #223666;
+	font-weight: 700;
+
+	display: flex;
+	align-items: center;
+  }
+  
+  
+
+  .btnn1:hover {
+	color: #223666;
+	font-size: medium;
+	font-weight: 400;
+  }
+  
+  
+  @media (max-width: 768px) {
+
+	.btnn {
+		text-decoration: none;
+		font-size: 1rem;
+		user-select: none;
+		color: #ffffff;
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  
+	
+	  .btnn:hover {
+		color: #cfcece;
+		font-size: medium;
+		font-weight: 600;
+	  }
+  }

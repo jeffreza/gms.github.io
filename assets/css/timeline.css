@@ -1,0 +1,502 @@
+@media (min-width : 1280px) {
+
+	
+.eventph h3 {
+    width: 100%;
+    color: #223666;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.eventph p {
+    color: #424242;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+    width: 80%;
+}
+
+
+
+.Events {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.eventph {
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.eventtimeline {
+	width: 80%;
+	display: flex;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-content: center;
+}
+
+.eventtimeline .eventimg img{
+	border-radius: 30px 0px 30px 0px;
+	float: right;
+	width: 1200px;
+	
+	/* margin-top: 20px;
+	margin-bottom: 20px; */
+	
+	
+}
+
+.eventtimeline .eventimg img:hover{
+	border-color: white;
+	border: 4px solid  rgb(87, 87, 87);
+	padding: 5px;
+	transition: 1s;
+	
+}
+
+
+.eventtimeline .eventtext {
+	margin-top: 70px;
+	width: 100%;
+	
+}
+
+.eventtimeline  .eventtext h1{
+	font-size: 2em;
+	font-weight: 800;
+	color: #223666;
+
+}
+
+
+.eventtimeline  .eventtext p{
+	font-size: 0.95em;
+	color: #424242;
+	text-align: justify;
+	
+}
+
+
+
+.eventtimeline  .eventtext h4{
+	font-size: 0.8em;
+	color: #424242;
+	font-weight: 400;
+	float: right;
+}
+
+.statusevent {
+	background-color: #E0E0E0;
+	width: 120px;
+	border-radius: 12px;
+}
+
+.statusevent p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.eventdetailbtn{
+	margin-top: 30px;
+}
+
+.eventdetailbtn button {
+	width: 25%;
+    height: 5vh;
+    color: white;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
+.eventdetailbtn button:hover {
+	width: 25%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+
+.eventbg {
+background-color: #424242;
+/* height: 500px; */
+margin-bottom: 50px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.eventtimeline2 {
+	/* padding-top: 70px; */
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: fit-content;
+	display: flex;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.eventtimeline2 .eventimg{
+	width: 100%;
+}
+.eventtimeline .eventimg{
+	padding-left: 30px;
+	width: 100%;
+}
+
+.eventtimeline2 .eventimg img{
+	border-radius: 30px 0px 30px 0px;
+	float: right;
+	width: 1200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.eventtimeline2 .eventimg img:hover{
+	border-color: white;
+	border: 4px solid rgb(255, 255, 255);
+	padding: 5px;
+	transition: 1s;
+}
+
+
+.eventtimeline2 .eventtext {
+	float: left;
+	margin-right: 50px;
+	width: 100%;
+}
+
+.eventtimeline2  .eventtext h1{
+	font-size: 2em;
+	font-weight: 800;
+	color: #E0E0E0;
+
+}
+
+
+.eventtimeline2  .eventtext p{
+	font-size: 0.95em;
+	color: #E0E0E0;
+	text-align: justify;
+	
+	
+}
+
+.eventtimeline2 .statusevent {
+	background-color: #E0E0E0;
+	width: 120px;
+	border-radius: 12px;
+}
+
+.eventtimeline2 .statusevent p{
+	color: #424242;
+	
+}
+.eventtimeline2  .eventtext h4{
+	font-size: 0.8em;
+	color: #E0E0E0;
+	font-weight: 400;
+	float: right;
+}
+
+
+.eventbg .eventtext .statusevent .eventdetailbtn2  button:hover {
+	color: white;
+	background-color: #223666;
+	border-radius: 4px;
+	border-color:transparent;
+	height: 40px;
+	width: 32%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1.5px;
+}
+
+
+
+
+.eventtimeline2 .eventtext h5{
+	color: white;
+	font-size: 8px;
+	float: right;
+}
+
+
+.eventtimeline  h5{
+	color: #424242;
+	font-size: 8px;
+	float: right;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width : 768px) {
+
+
+	.eventph h3 {
+		
+		color: #223666;
+		font-size: 2rem;
+		font-weight: 800;
+		padding-top: 30px;
+	}
+	
+	.eventph img {
+        margin-top: -40px;
+        display: inline;
+        height:3px;
+        width: 240px;
+    }
+    .eventph {
+        justify-content: center;
+        align-items: center;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		color: #424242;
+		width: 90%;
+		margin-bottom: 20px;
+		text-align: justify center;
+    }
+	.eventtimeline {
+		width: 80%;
+		display: block;
+		height: fit-content;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+	.eventtimeline .eventtext {
+		margin-top: 0px;
+		float: left;
+	}
+	
+	.eventtimeline  .eventtext h1{
+		font-size: 1.5em;
+		font-weight: 800;
+		color: #223666;
+	
+	}
+
+	.eventtimeline  .eventtext p{
+		font-size: 0.7em;
+		color: #424242;
+		
+	}
+	
+	.statusevent {
+		justify-content: center;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+.eventdetailbtn button {
+	width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: 10px;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: -100px;
+    /* margin-left: 135px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.eventtimeline .eventdetailbtn button{
+	margin-bottom: 20px;
+}
+
+.eventdetailbtn button:hover {
+	width: 30%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+
+/* .eventtimeline .eventimg {
+	width: 100%;
+}
+.eventtimeline2 .eventimg {
+	width: 40%;
+} */
+
+
+
+
+
+/* =================================================== */
+/* 2nd div */
+/* =========================================================== */
+
+
+
+.eventtimeline2 {
+	padding-top: 50px;
+	width: 80%;
+	display: block;
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+}
+
+.eventtimeline2  .eventtext h1{
+	font-size: 1.5em;
+	font-weight: 800;
+	color: #E0E0E0;
+
+}
+
+.eventtimeline2  .eventtext p{
+	font-size: 0.7em;
+	color: #E0E0E0;
+	
+}
+
+.eventdetailbtn2 button {
+	width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: 10px;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: -100px;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.eventdetailbtn2 .eventdetailbtn button:hover {
+    width: 30%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+.eventbg .eventimg img{
+border-radius: 10px 10px 10px 10px;
+/* float: right; */
+width: 100%;
+}
+
+.eventtimeline .eventimg img{
+	border-radius: 10px 10px 10px 10px;
+	/* float: right; */
+	width: 100%;
+	float: none ;
+	
+	}
+
+ .eventbg .statusevent p{
+	color: #424242;
+}
+
+.eventbg {
+	background-color: #424242;
+	height: fit-content;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	
+	}
+
+
+	.eventtimeline2 .eventtext h5{
+		color: white;
+		font-size: 8px;
+		
+	}
+	
+	
+	.eventtimeline  h5{
+		color: #424242;
+		font-size: 8px;
+	}
+
+	.eventtimeline2 .eventdetailbtn button{
+		margin-bottom: 20px;
+	}
+
+}
+
+
+

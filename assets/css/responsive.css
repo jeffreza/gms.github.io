@@ -1,0 +1,915 @@
+/*
+Author: Bootstrapthemes
+Author URI: http://www.xpeedstudio.com
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* ================================================= */
+
+/* =========================================================== */
+
+@media (min-width: 1080px) {
+
+  .product {
+    height: fit-content;
+    background-color: #424242 ;
+    height: 450px;
+}
+
+.main_product .head_title {
+    margin-top: -70px;
+    align-items: center;
+}
+
+  .div1 h2 {
+    font-size: 3em;
+    color: #E0E0E0;
+    font-weight: 900px;
+  }
+
+  .div1 p {
+
+    color: #E0E0E0;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .content-1 h1 {
+    font-size: 2.5em;
+  }
+
+  .content-1 ul li {
+    font-size: 14px;
+  }
+
+  .content-2 h1 {
+    font-size: 2.5em;
+  }
+
+  .content-2 ul li {
+    font-size: 14px;
+  }
+
+  .business_item h2 {
+    font-size: 2.5em;
+  }
+
+  .head_title h2 {
+    font-size: 2.5em;
+  }
+
+
+}
+
+
+
+
+/* ============================================== */
+/* ==================================================================== */
+
+
+
+
+/* Portrait tablets and small desktops */
+/*@media (max-width: 992px) {
+
+}*/
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+
+  .sm-text-center {
+    text-align: center !important;
+  }
+
+  .sm-pull-none {
+    float: none !important;
+  }
+
+  .sm-m-top-10 {
+    margin-top: 10px;
+  }
+
+  .sm-m-top-20 {
+    margin-top: 20px;
+  }
+
+  .sm-m-top-30 {
+    margin-top: 30px;
+  }
+
+  .sm-m-top-40 {
+    margin-top: 40px;
+  }
+
+  .sm-m-top-50 {
+    margin-top: 50px;
+  }
+
+  .item_img i {
+    right: 0%;
+  }
+
+  .logo {
+    margin-top: -7px;
+    align-content: center;
+  }
+
+  .div1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+    /* Should be removed. Only for demonstration */
+  }
+
+  .div2 {
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .div1row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .div1 h2 {
+    font-weight: 900px;
+    font-size: 2em;
+  }
+
+
+  /* 2nd div work */
+ 
+
+  .container-1 h1 {
+    margin-left: 5rem;
+    font-weight: 700;
+    word-spacing: normal;
+    font-size: 3em;
+    color: #223666;
+  }
+
+  .content-1 h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+    position: relative;
+    color: #8d8b8b;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 400px;
+
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+
+
+  .content-2 h1 {
+    font-size: 2em;
+  }
+
+  .head_title h2 {
+    font-size: 2em;
+  }
+
+  .content-2 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    position: relative;
+    color: #8d8b8b;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 400px;
+
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+
+
+  .wrappermember {
+    display: grid;
+    color: black;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 0.8fr);
+    grid-auto-rows: 18rem;
+  }
+
+
+  /* //end product section */
+
+
+  .container-end h1 {
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #E0E0E0;
+  }
+
+  .container-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
+
+
+
+  .content-end {
+    flex-basis: 100%;
+    text-align: justify;
+  }
+
+  .content-end h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    position: relative;
+    color: #E0E0E0;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 380px;
+    letter-spacing: 5px;
+
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+
+
+  .content-end ul {
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    line-height: 1.5;
+    color: #E0E0E0;
+    width: 100%;
+  }
+
+  .box h1 {
+    margin-top: -60px;
+    margin-bottom: -10px;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    /* display: inline-table; */
+  }
+
+  .box p {
+    display: inline-table;
+    float: right;
+    text-align: center;
+    width: 50%;
+    margin-left: 10px;
+    position: relative;
+    display: inline-table;
+  }
+
+  .box img {
+    width: 60%;
+  }
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+
+
+  
+
+
+  .banner {
+    background: url(../images/Bg.png) no-repeat scroll  center center;
+    background-size: cover;
+    background-color: transparent;
+    height: 60px;
+  }
+  .product {
+    background-color: #424242 ;
+}
+  .navbar-brand > img {
+    
+    display: block;
+    align-items: center;
+    width: 50%;
+} 
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 70%;
+    line-height: 1rem;
+  }
+
+  .xs-pull-none {
+    float: none !important;
+  }
+
+  .xs-text-center {
+    text-align: center !important;
+  }
+
+  .xs-m-top-10 {
+    margin-top: 10px;
+  }
+
+  .xs-m-top-30 {
+    margin-top: 30px;
+  }
+
+  .xs-m-bottom-10 {
+    margin-bottom: 10px;
+  }
+
+  .xs-m-bottom-20 {
+    margin-bottom: 20px;
+  }
+
+
+  .main_home .home_text h2 {
+    font-size: 24px;
+  }
+
+  .main_home .home_text h1 {
+    font-size: 32px;
+  }
+
+  .main_home .home_text h3 {
+    font-size: 18px;
+  }
+
+  .main_product .carousel-control {
+    display: none;
+  }
+  
+  .main_product{
+    margin-top: -50px;
+  }
+
+  .logo {
+    margin-top: -7px;
+    align-content: center;
+  }
+
+
+  .div1 h2 {
+    font-weight: 900px;
+    font-size: 2em;
+  }
+
+  .lastdiv {
+    margin-top: -660px;
+  }
+
+
+  .div1 {
+
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+    /* Should be removed. Only for demonstration */
+  }
+
+
+  .div2 img {
+    width: 60%;
+    margin-right: 20%;
+    /* margin-left: 0px;
+    margin-right: auto; */
+   
+  }
+
+  .div2 {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    /* Should be removed. Only for demonstration */
+  }
+
+
+  .hello_slid {
+    margin-top: -10px;
+  }
+
+  .div1 {
+
+    display: contents;
+    text-align: center;
+    align-items: center;
+  }
+
+
+
+  /* ==================================================== */
+  /* padding between the text on div3 */
+  /* ====================================================== */
+  .business_item p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+
+  /* --------------------------------- */
+  /* 2nd div clinical diagnosis */
+  /* -------------------------------------- */
+
+  .content-1 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  /* .content-1 button {
+
+    margin-left: 10rem;
+    bottom: 35px;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid;
+    margin-bottom: 120px;
+    margin-top: -60px;
+  } */
+
+  .content-1 ul {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+    /* margin-left: 90px; */
+    line-height: 1.5;
+    color: black;
+  }
+
+
+ 
+  
+/* // Social Fedds */
+
+.socialfeed{
+  margin-top: -30px;
+  background-color: transparent;
+  background: url(../images/hero-bg.png);
+  background-size: cover;
+  height: auto;
+  text-align: center;
+
+}
+
+.socialfeed h1 {
+  font-weight: 800;
+  word-spacing: normal;
+  font-size: 2em;
+  color: #223666;
+  text-align: center;
+}
+
+
+
+.socialplugin {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+  .container-1 h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-left:-4px ;
+    font-weight: 800;
+    color: #223666;
+  }
+
+  .container-1 {
+    display: contents;
+    align-items: center auto;
+    position: relative;
+    text-align: center;
+    
+    /* padding: 10px 20px; */
+  }
+
+
+  /* 3div */
+
+
+  .content-2 {
+    flex-basis: 100%;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+
+  /* .content-2 h2{
+    
+    
+  } */
+  .content-2 h2 {
+
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: relative;
+    color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 330px;
+
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+
+.content-2 ul {
+  text-align: center;
+  font-size:0.8em;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+
+/* .content-2 button {
+  margin-left: 8rem;
+  bottom: 35px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid;
+  margin-bottom: 120px;
+  margin-top: -60px;
+} */
+
+
+.image2 {
+  margin-top: 50px;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  
+}
+
+.image2 img {
+  width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-2 h1 {
+  text-align: center;
+  font-weight: 800;
+  color: #E0E0E0;
+}
+
+
+.container-2 {
+  display: contents;
+  align-items: center auto;
+  position: relative;
+  
+  margin: 0 auto;
+  padding: 20px 20px;
+  
+}
+
+
+/* Main member Section  */
+.container-section4 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  /*  justify-content: center;*/
+}
+
+
+.container-section4 h2 {
+  padding-left: 10px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.container-section4 h1 {
+
+
+  font-size: 30px;
+
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+  color: #2A9EDF;
+
+}
+
+.div3 {
+  background-image: url('assets/images/images.jpg');
+  background-color: #E0E0E0;
+  
+}
+.space1 {
+  margin-top: 40px;
+  background-color: transparent;
+  /* background: url(../images/hero-bg.png); */
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  
+}
+.space1 h1 {
+  font-weight: 700;
+  word-spacing: normal;
+  font-size: 1.5em;
+  width: 100%;
+  color: #223666;
+text-align: center;
+line-height: 55%;
+}
+
+.container-section4 img {
+  width: 50%;
+  height: 70%;
+  /* padding-left: 220px; */
+}
+
+.content-3 ul {
+  text-align: center;
+  font-size: 2rem;
+  top: 50px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  line-height: 1.5;
+  color: #616161;
+}
+
+.content-3 img {
+  width: 200px;
+}
+
+
+.container-section5 img {
+  width: 55%;
+  height: 70%;
+
+  margin-left: 225px;
+  float: right;
+}
+
+/* Main member Section  */
+.container-section5 {
+  display: flex;
+
+
+  /*  justify-content: center;*/
+}
+
+
+.container-section5 h2 {
+  padding-left: 10px;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.container-section5 h1 {
+
+
+  font-size: 3rem;
+
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+  color: #2A9EDF;
+
+}
+
+.container-section5 img {
+  margin-right: 90px;
+}
+
+
+.content-5 ul {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 110px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  line-height: 1.5;
+  color: #616161;
+}
+
+.content-5 img {
+  width: 200px;
+}
+
+
+
+/* //this is the part where we are going to center all the content of the business id section */
+
+/* Mobile view */
+
+
+.business_item {
+  align-items: center;
+  text-align: center;
+}
+
+.business_item h2 {
+  font-size: 2em;
+  font-weight: 800;
+
+}
+
+.business_item li {
+
+  color: #424242;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2rem;
+  /* text-align: justify;
+    margin-left: 9rem; */
+}
+
+.business_item li i {
+  font-size: 12px;
+  margin-right: 5px;
+
+}
+
+.business_item p {
+  color: #333333;
+  line-height: 2rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.business_item {
+  margin-left: -10px;
+}
+
+.business_item .a {
+  margin-left: 10px;
+}
+
+/* .business_item .
+ .btn-default{
+    color:#E0E0E0;
+} */
+
+
+
+/* here we are going to arrange the main div home content to align them on center */
+
+.home {
+  background: url(../images/hero-bg.png) no-repeat scroll center center;
+  background-size: cover;
+  position: relative;
+  padding-top: 18rem;
+  padding-bottom: 80px;
+  height: 52rem;
+  width: 100%;
+}
+
+
+/* here we are going to manage the content of the 2div which is beanth the home main div  */
+
+
+.content-1 {
+  flex-basis: 70%;
+  text-align: justify;
+  margin-top: -88px;
+}
+
+.features h2 {
+  color: transparent;
+}
+
+.features {
+  height: 42rem;
+  width: 100%;
+}
+
+
+.features1 h2 {
+  color: transparent;
+}
+
+.features1 {
+  height: 39rem;
+  width: 100%;
+}
+
+.image1 {
+  margin-top: 50px;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.image1 img {
+  width: 80%;
+  height: auto;
+  margin-top: auto;
+  
+}
+
+
+
+
+
+
+
+/* here we have correct the alignment of both */
+
+
+.business_slid {
+
+  box-shadow: 0px 0px 8px -1px;
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+
+
+}
+
+.col-md-6 {
+  /* padding-left: 20px; */
+  align-items: center;
+}
+
+
+
+.business {
+  margin-top: -80px
+}
+
+
+/* social media feed */
+.container-socail {
+  width: 90%;
+  /* padding-left: 40px; */
+}
+
+}
+
+
+
+
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+  html {
+    font-size: 85%;
+  }
+
+  .main_home .home_text h1 {
+    font-size: 28px;
+  }
+
+  .main_home .home_text h3 {
+    font-size: 17px;
+  }
+
+
+}
+
+
+
+
+
+/* @media (max-width: 400px) {}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 60.5%;
+  }
+
+
+
+} */

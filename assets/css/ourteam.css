@@ -1,0 +1,152 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+.ourteamcellblock {
+  min-height: 75px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paratext {
+  width: 80%;
+  text-align: center;
+  margin-top: -30px;
+  color: #424242;
+}
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.ourteamresponsive {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.team-head-text {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  color: #223666;
+}
+
+.team-head-text {
+  line-height: 50px;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  font-size: 2.5em;
+}
+
+
+
+.ourteamcontainer {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+  padding-top: 0px;
+  
+  /* padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px; */
+}
+
+.ourteamcard {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+
+.ourteamcard-container {
+  width: 280px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.ourteamname {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #223666;
+}
+
+.ourteamposition {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  color: #424242;
+}
+
+.ourteam-feature {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  color: rgb(122, 122, 122);
+  line-height: 30px;
+}
+
+.ourteam-icons {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.ourteamimg-wrapper {
+  clip-path: circle(50% at 50% 50%);
+  width: 130px;
+  height: 130px;
+}
+
+.ourteam-member-img {
+  max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  .ourteamcard-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+  .paratext {
+      width: 80%;
+      text-align: center;
+      margin-top: -30px;
+      font-size: 12px;
+    }
+}
+
+

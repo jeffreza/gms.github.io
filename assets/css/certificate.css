@@ -1,0 +1,109 @@
+@media (min-width: 786px) {
+    .certificate {
+        width: 80%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    
+    .textcertificate {
+        margin-top: auto;
+        margin-bottom: auto;
+        height: fit-content;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .textcertificate h1 {
+        font-size: 1.6em;
+        color: #223666;
+        font-weight: 800;
+        width: 80%;
+    }
+
+    
+    
+    .textcertificate p {
+        color: #424242;
+        width: 80%;
+    }
+    
+    .textcertificateimg {
+       margin-top: auto;
+       margin-bottom: auto;
+       height: fit-content;
+        /* float: right; */
+        display: block ;
+    }
+    
+    .textcertificateimg img{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 300px;
+        float: right;
+        padding-left: 20px;
+        margin-top: 20px;
+        margin-bottom: none ;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+
+
+    }
+}
+
+
+@media (max-width: 786px) {
+    .certificate {
+        margin-top: 30px;
+        width: 80%;
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: fit-content;
+    }
+    
+    .textcertificate {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .textcertificate h1 {
+        font-size: 1em;
+        color: #223666;
+        font-weight: 800;
+    }
+    
+    .textcertificate p {
+        color: #424242;
+    }
+
+    
+.textcertificateimg {
+    margin-top: 20px;
+    /* display: block; */
+    display: flex;
+        flex-wrap:wrap;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.textcertificateimg img{
+    width: 50%;
+}
+
+
+}
+
+
+
+hr {
+    border: 0;
+    border-top: 2px solid brown;
+  }
