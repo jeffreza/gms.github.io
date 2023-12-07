@@ -1837,7 +1837,7 @@ transform: rotate(90deg);
 
 .content-2 {
     flex-basis: 70%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 /* .content-2 h2 {
